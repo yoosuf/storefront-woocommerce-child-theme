@@ -1,0 +1,26 @@
+{
+  "name": "storefront-woocommerce-child-theme",
+  "version": "1.0.0",
+  "description": "The StoreFront Child Theme is a starter blank child theme for WooThemes StoreFront WooCommerce theme.",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url assets/sass/style.scss style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoosuf/storefront-woocommerce-child-theme.git"
+  },
+  "keywords": ["wordpress", "storefront", "child-theme"],
+  "author": "Yoosuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoosuf/storefront-woocommerce-child-theme/issues"
+  },
+  "homepage": "https://github.com/yoosuf/storefront-woocommerce-child-theme#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.6"
+  }
+}
